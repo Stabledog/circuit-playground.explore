@@ -27,7 +27,7 @@ function mount_E {
     ls -l /e/*
 }
 
-function gpa {
+function gitsave {
     # Help Because the code files live on the device beyond the reach of git, we must copy them to devmirror/ and commit them that way
     cd $taskrc_dir
     if [[ ! -f drive_e/code.py ]]; then
